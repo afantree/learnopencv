@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FaceRecognizer1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>VIdeoWriter1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>VideoCapturetest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>grabcut.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>opencv1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>141C7C001EF7AF02008A984E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14CCFF081EC08D840051E27C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14CFEB4F1ED30D6400C56765</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14D1C4711EEE79760003B82A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14E8FD991F9DE273009D40E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14E8FDBE1F9DF072009D40E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

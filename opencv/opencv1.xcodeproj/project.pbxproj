@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141C7C041EF7AF02008A984E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 141C7C031EF7AF02008A984E /* main.cpp */; };
+		141C7C081EF7AF2E008A984E /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */; };
+		141C7C091EF7AF2E008A984E /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */; };
+		141C7C0A1EF7AF2E008A984E /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */; };
+		141C7C0B1EF7AF2E008A984E /* libopencv_ml.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */; };
+		141C7C0C1EF7AF2E008A984E /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */; };
+		14CCFF0D1EC08D840051E27C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14CCFF0C1EC08D840051E27C /* main.cpp */; };
+		14CCFF171EC091930051E27C /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */; };
+		14CCFF181EC091930051E27C /* libopencv_ml.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */; };
+		14CCFF191EC091930051E27C /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */; };
+		14CCFF1B1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */; };
+		14CFEB4B1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */; };
+		14CFEB531ED30D6400C56765 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14CFEB521ED30D6400C56765 /* main.cpp */; };
+		14CFEB571ED30DC400C56765 /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */; };
+		14CFEB581ED30DC400C56765 /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */; };
+		14CFEB591ED30DC400C56765 /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */; };
+		14CFEB5A1ED30DDD00C56765 /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */; };
+		14CFEB5D1ED30DF000C56765 /* libopencv_ml.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */; };
+		14D1C4751EEE79760003B82A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14D1C4741EEE79760003B82A /* main.cpp */; };
+		14D1C4791EEE79B50003B82A /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */; };
+		14D1C47A1EEE79B50003B82A /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */; };
+		14D1C47B1EEE79B50003B82A /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */; };
+		14D1C47C1EEE79B50003B82A /* libopencv_ml.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */; };
+		14D1C47D1EEE79B50003B82A /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */; };
+		14E8FDC21F9DF072009D40E9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 14E8FDC11F9DF072009D40E9 /* main.cpp */; };
+		14E8FDC61F9DF0D3009D40E9 /* libopencv_core.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */; };
+		14E8FDC71F9DF0D3009D40E9 /* libopencv_highgui.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */; };
+		14E8FDC81F9DF0D3009D40E9 /* libopencv_imgproc.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */; };
+		14E8FDC91F9DF0D3009D40E9 /* libopencv_ml.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */; };
+		14E8FDCA1F9DF0D3009D40E9 /* libopencv_video.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */; };
+		14E8FDCC1F9DF2D4009D40E9 /* libopencv_objdetect.2.4.13.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E8FDCB1F9DF2D4009D40E9 /* libopencv_objdetect.2.4.13.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		141C7BFF1EF7AF02008A984E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14CCFF071EC08D840051E27C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14CFEB4E1ED30D6400C56765 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14D1C4701EEE79760003B82A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		14E8FDBD1F9DF072009D40E9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		141C7C011EF7AF02008A984E /* grabcut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = grabcut; sourceTree = BUILT_PRODUCTS_DIR; };
+		141C7C031EF7AF02008A984E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14CCFF091EC08D840051E27C /* opencv1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv1; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CCFF0C1EC08D840051E27C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_core.2.4.13.dylib; sourceTree = "<group>"; };
+		14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_ml.2.4.13.dylib; sourceTree = "<group>"; };
+		14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_video.2.4.13.dylib; sourceTree = "<group>"; };
+		14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_highgui.2.4.13.dylib; sourceTree = "<group>"; };
+		14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_imgproc.2.4.13.dylib; sourceTree = "<group>"; };
+		14CFEB501ED30D6400C56765 /* VideoCapturetest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoCapturetest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CFEB521ED30D6400C56765 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14D1C4721EEE79760003B82A /* VIdeoWriter1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VIdeoWriter1; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D1C4741EEE79760003B82A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14E8FDA11F9DE7FE009D40E9 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_core.dylib; sourceTree = "<group>"; };
+		14E8FDA31F9DE808009D40E9 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_highgui.dylib; sourceTree = "<group>"; };
+		14E8FDA51F9DE833009D40E9 /* libopencv_ml.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ml.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_ml.dylib; sourceTree = "<group>"; };
+		14E8FDA61F9DE833009D40E9 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		14E8FDA71F9DE833009D40E9 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_video.dylib; sourceTree = "<group>"; };
+		14E8FDBF1F9DF072009D40E9 /* FaceRecognizer1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FaceRecognizer1; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E8FDC11F9DF072009D40E9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		14E8FDCB1F9DF2D4009D40E9 /* libopencv_objdetect.2.4.13.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_objdetect.2.4.13.dylib; path = ../../../../usr/local/Cellar/opencv/2.4.13.2/lib/libopencv_objdetect.2.4.13.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141C7BFE1EF7AF02008A984E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141C7C081EF7AF2E008A984E /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+				141C7C091EF7AF2E008A984E /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				141C7C0A1EF7AF2E008A984E /* libopencv_core.2.4.13.dylib in Frameworks */,
+				141C7C0B1EF7AF2E008A984E /* libopencv_ml.2.4.13.dylib in Frameworks */,
+				141C7C0C1EF7AF2E008A984E /* libopencv_video.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CCFF061EC08D840051E27C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFEB4B1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+				14CCFF1B1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				14CCFF171EC091930051E27C /* libopencv_core.2.4.13.dylib in Frameworks */,
+				14CCFF181EC091930051E27C /* libopencv_ml.2.4.13.dylib in Frameworks */,
+				14CCFF191EC091930051E27C /* libopencv_video.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFEB4D1ED30D6400C56765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFEB5D1ED30DF000C56765 /* libopencv_ml.2.4.13.dylib in Frameworks */,
+				14CFEB5A1ED30DDD00C56765 /* libopencv_video.2.4.13.dylib in Frameworks */,
+				14CFEB571ED30DC400C56765 /* libopencv_core.2.4.13.dylib in Frameworks */,
+				14CFEB581ED30DC400C56765 /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				14CFEB591ED30DC400C56765 /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D1C46F1EEE79760003B82A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D1C4791EEE79B50003B82A /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+				14D1C47A1EEE79B50003B82A /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				14D1C47B1EEE79B50003B82A /* libopencv_core.2.4.13.dylib in Frameworks */,
+				14D1C47C1EEE79B50003B82A /* libopencv_ml.2.4.13.dylib in Frameworks */,
+				14D1C47D1EEE79B50003B82A /* libopencv_video.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8FDBC1F9DF072009D40E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8FDCC1F9DF2D4009D40E9 /* libopencv_objdetect.2.4.13.dylib in Frameworks */,
+				14E8FDC61F9DF0D3009D40E9 /* libopencv_core.2.4.13.dylib in Frameworks */,
+				14E8FDC71F9DF0D3009D40E9 /* libopencv_highgui.2.4.13.dylib in Frameworks */,
+				14E8FDC81F9DF0D3009D40E9 /* libopencv_imgproc.2.4.13.dylib in Frameworks */,
+				14E8FDC91F9DF0D3009D40E9 /* libopencv_ml.2.4.13.dylib in Frameworks */,
+				14E8FDCA1F9DF0D3009D40E9 /* libopencv_video.2.4.13.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141C7C021EF7AF02008A984E /* grabcut */ = {
+			isa = PBXGroup;
+			children = (
+				141C7C031EF7AF02008A984E /* main.cpp */,
+			);
+			path = grabcut;
+			sourceTree = "<group>";
+		};
+		14CCFF001EC08D840051E27C = {
+			isa = PBXGroup;
+			children = (
+				14CCFF0B1EC08D840051E27C /* opencv1 */,
+				14CFEB511ED30D6400C56765 /* VideoCapturetest */,
+				14D1C4731EEE79760003B82A /* VIdeoWriter1 */,
+				141C7C021EF7AF02008A984E /* grabcut */,
+				14E8FDC01F9DF072009D40E9 /* FaceRecognizer1 */,
+				14CCFF0A1EC08D840051E27C /* Products */,
+				14CCFF131EC091930051E27C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14CCFF0A1EC08D840051E27C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CCFF091EC08D840051E27C /* opencv1 */,
+				14CFEB501ED30D6400C56765 /* VideoCapturetest */,
+				14D1C4721EEE79760003B82A /* VIdeoWriter1 */,
+				141C7C011EF7AF02008A984E /* grabcut */,
+				14E8FDBF1F9DF072009D40E9 /* FaceRecognizer1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CCFF0B1EC08D840051E27C /* opencv1 */ = {
+			isa = PBXGroup;
+			children = (
+				14CCFF0C1EC08D840051E27C /* main.cpp */,
+			);
+			path = opencv1;
+			sourceTree = "<group>";
+		};
+		14CCFF131EC091930051E27C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E8FDCB1F9DF2D4009D40E9 /* libopencv_objdetect.2.4.13.dylib */,
+				14E8FDA61F9DE833009D40E9 /* libopencv_imgproc.dylib */,
+				14E8FDA51F9DE833009D40E9 /* libopencv_ml.dylib */,
+				14E8FDA71F9DE833009D40E9 /* libopencv_video.dylib */,
+				14E8FDA31F9DE808009D40E9 /* libopencv_highgui.dylib */,
+				14E8FDA11F9DE7FE009D40E9 /* libopencv_core.dylib */,
+				14CFEB4A1ED30D1B00C56765 /* libopencv_imgproc.2.4.13.dylib */,
+				14CCFF1A1EC091F80051E27C /* libopencv_highgui.2.4.13.dylib */,
+				14CCFF141EC091930051E27C /* libopencv_core.2.4.13.dylib */,
+				14CCFF151EC091930051E27C /* libopencv_ml.2.4.13.dylib */,
+				14CCFF161EC091930051E27C /* libopencv_video.2.4.13.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14CFEB511ED30D6400C56765 /* VideoCapturetest */ = {
+			isa = PBXGroup;
+			children = (
+				14CFEB521ED30D6400C56765 /* main.cpp */,
+			);
+			path = VideoCapturetest;
+			sourceTree = "<group>";
+		};
+		14D1C4731EEE79760003B82A /* VIdeoWriter1 */ = {
+			isa = PBXGroup;
+			children = (
+				14D1C4741EEE79760003B82A /* main.cpp */,
+			);
+			path = VIdeoWriter1;
+			sourceTree = "<group>";
+		};
+		14E8FDC01F9DF072009D40E9 /* FaceRecognizer1 */ = {
+			isa = PBXGroup;
+			children = (
+				14E8FDC11F9DF072009D40E9 /* main.cpp */,
+			);
+			path = FaceRecognizer1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141C7C001EF7AF02008A984E /* grabcut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141C7C071EF7AF02008A984E /* Build configuration list for PBXNativeTarget "grabcut" */;
+			buildPhases = (
+				141C7BFD1EF7AF02008A984E /* Sources */,
+				141C7BFE1EF7AF02008A984E /* Frameworks */,
+				141C7BFF1EF7AF02008A984E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = grabcut;
+			productName = grabcut;
+			productReference = 141C7C011EF7AF02008A984E /* grabcut */;
+			productType = "com.apple.product-type.tool";
+		};
+		14CCFF081EC08D840051E27C /* opencv1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CCFF101EC08D840051E27C /* Build configuration list for PBXNativeTarget "opencv1" */;
+			buildPhases = (
+				14CCFF051EC08D840051E27C /* Sources */,
+				14CCFF061EC08D840051E27C /* Frameworks */,
+				14CCFF071EC08D840051E27C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencv1;
+			productName = opencv1;
+			productReference = 14CCFF091EC08D840051E27C /* opencv1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		14CFEB4F1ED30D6400C56765 /* VideoCapturetest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CFEB541ED30D6400C56765 /* Build configuration list for PBXNativeTarget "VideoCapturetest" */;
+			buildPhases = (
+				14CFEB4C1ED30D6400C56765 /* Sources */,
+				14CFEB4D1ED30D6400C56765 /* Frameworks */,
+				14CFEB4E1ED30D6400C56765 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoCapturetest;
+			productName = VideoCapturetest;
+			productReference = 14CFEB501ED30D6400C56765 /* VideoCapturetest */;
+			productType = "com.apple.product-type.tool";
+		};
+		14D1C4711EEE79760003B82A /* VIdeoWriter1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14D1C4781EEE79760003B82A /* Build configuration list for PBXNativeTarget "VIdeoWriter1" */;
+			buildPhases = (
+				14D1C46E1EEE79760003B82A /* Sources */,
+				14D1C46F1EEE79760003B82A /* Frameworks */,
+				14D1C4701EEE79760003B82A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIdeoWriter1;
+			productName = VIdeoWriter1;
+			productReference = 14D1C4721EEE79760003B82A /* VIdeoWriter1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		14E8FDBE1F9DF072009D40E9 /* FaceRecognizer1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E8FDC31F9DF072009D40E9 /* Build configuration list for PBXNativeTarget "FaceRecognizer1" */;
+			buildPhases = (
+				14E8FDBB1F9DF072009D40E9 /* Sources */,
+				14E8FDBC1F9DF072009D40E9 /* Frameworks */,
+				14E8FDBD1F9DF072009D40E9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceRecognizer1;
+			productName = FaceRecognizer1;
+			productReference = 14E8FDBF1F9DF072009D40E9 /* FaceRecognizer1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CCFF011EC08D840051E27C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "阿凡树";
+				TargetAttributes = {
+					141C7C001EF7AF02008A984E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					14CCFF081EC08D840051E27C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					14CFEB4F1ED30D6400C56765 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					14D1C4711EEE79760003B82A = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					14E8FDBE1F9DF072009D40E9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14CCFF041EC08D840051E27C /* Build configuration list for PBXProject "opencv1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14CCFF001EC08D840051E27C;
+			productRefGroup = 14CCFF0A1EC08D840051E27C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CCFF081EC08D840051E27C /* opencv1 */,
+				14CFEB4F1ED30D6400C56765 /* VideoCapturetest */,
+				14D1C4711EEE79760003B82A /* VIdeoWriter1 */,
+				141C7C001EF7AF02008A984E /* grabcut */,
+				14E8FDBE1F9DF072009D40E9 /* FaceRecognizer1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141C7BFD1EF7AF02008A984E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141C7C041EF7AF02008A984E /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CCFF051EC08D840051E27C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CCFF0D1EC08D840051E27C /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14CFEB4C1ED30D6400C56765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CFEB531ED30D6400C56765 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14D1C46E1EEE79760003B82A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14D1C4751EEE79760003B82A /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E8FDBB1F9DF072009D40E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E8FDC21F9DF072009D40E9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		141C7C051EF7AF02008A984E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		141C7C061EF7AF02008A984E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CCFF0E1EC08D840051E27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		14CCFF0F1EC08D840051E27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		14CCFF111EC08D840051E27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CCFF121EC08D840051E27C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14CFEB551ED30D6400C56765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CFEB561ED30D6400C56765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14D1C4761EEE79760003B82A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14D1C4771EEE79760003B82A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		14E8FDC41F9DF072009D40E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14E8FDC51F9DF072009D40E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/opencv/2.4.13.2/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141C7C071EF7AF02008A984E /* Build configuration list for PBXNativeTarget "grabcut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141C7C051EF7AF02008A984E /* Debug */,
+				141C7C061EF7AF02008A984E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CCFF041EC08D840051E27C /* Build configuration list for PBXProject "opencv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CCFF0E1EC08D840051E27C /* Debug */,
+				14CCFF0F1EC08D840051E27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CCFF101EC08D840051E27C /* Build configuration list for PBXNativeTarget "opencv1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CCFF111EC08D840051E27C /* Debug */,
+				14CCFF121EC08D840051E27C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CFEB541ED30D6400C56765 /* Build configuration list for PBXNativeTarget "VideoCapturetest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CFEB551ED30D6400C56765 /* Debug */,
+				14CFEB561ED30D6400C56765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14D1C4781EEE79760003B82A /* Build configuration list for PBXNativeTarget "VIdeoWriter1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14D1C4761EEE79760003B82A /* Debug */,
+				14D1C4771EEE79760003B82A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E8FDC31F9DF072009D40E9 /* Build configuration list for PBXNativeTarget "FaceRecognizer1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E8FDC41F9DF072009D40E9 /* Debug */,
+				14E8FDC51F9DF072009D40E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CCFF011EC08D840051E27C /* Project object */;
+}
