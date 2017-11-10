@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Align.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Align1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>FaceRecognizer1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -33,6 +43,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>141C7C001EF7AF02008A984E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>14BAC49D1FB4874A00E35D35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
