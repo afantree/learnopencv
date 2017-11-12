@@ -71,7 +71,7 @@ int main(int argc, const char * argv[]) {
         {
             if (eyes[i].height > 0 && eyes[i].width > 0)
             {
-                rectangle(frame, eyes[i], Scalar(0, 0, 255), 1, 8, 0);
+//                rectangle(frame, eyes[i], Scalar(0, 0, 255), 1, 8, 0);
             }
         }
         // 用绿色的线画出脸的框
@@ -87,7 +87,7 @@ int main(int argc, const char * argv[]) {
         {
             if (nose[i].height > 0 && nose[i].width > 0)
             {
-                rectangle(frame, nose[i], Scalar(255, 255, 0), 1, 8, 0);
+//                rectangle(frame, nose[i], Scalar(255, 255, 0), 1, 8, 0);
             }
         }
         // 用黄色的线画出脸的框
@@ -95,7 +95,7 @@ int main(int argc, const char * argv[]) {
         {
             if (mouth[i].height > 0 && mouth[i].width > 0)
             {
-                rectangle(frame, mouth[i], Scalar(0, 255, 255), 1, 8, 0);
+//                rectangle(frame, mouth[i], Scalar(0, 255, 255), 1, 8, 0);
             }
         }
         imshow("face", frame);

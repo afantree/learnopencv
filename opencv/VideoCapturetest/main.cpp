@@ -91,7 +91,6 @@ int main()
         //waitKey(int delay=0)当delay ≤ 0时会永远等待；当delay>0时会等待delay毫秒
         //当时间结束前没有按键按下时，返回值为-1；否则返回按键
         
-        
         int c = waitKey(delay);
         //按下ESC或者到达指定的结束帧后退出读取视频
         if((char) c == 27 || currentFrame > frameToStop)
@@ -104,7 +103,6 @@ int main()
             waitKey(0);
         }
         currentFrame++;
-        
     }
     //关闭视频文件
     capture.release();
