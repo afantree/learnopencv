@@ -82,7 +82,7 @@ int main(int argc, const char * argv[]) {
                 rectangle(frame, faces[i], Scalar(0, 255, 0), 1, 8, 0);
             }
         }
-        // 用青色的线画出脸的框
+        // 用青色的线画出鼻子的框
         for (size_t i = 0;i<nose.size(); i++)
         {
             if (nose[i].height > 0 && nose[i].width > 0)
@@ -90,7 +90,7 @@ int main(int argc, const char * argv[]) {
 //                rectangle(frame, nose[i], Scalar(255, 255, 0), 1, 8, 0);
             }
         }
-        // 用黄色的线画出脸的框
+        // 用黄色的线画出嘴的框
         for (size_t i = 0;i<mouth.size(); i++)
         {
             if (mouth[i].height > 0 && mouth[i].width > 0)

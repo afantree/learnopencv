@@ -73,7 +73,7 @@ int main(int argc, const char * argv[]) {
     // 模型下载地址：http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2
     deserialize("/Volumes/extension/githubmy/learnopencv/opencv/Align1/shape_predictor_68_face_landmarks.dat") >> pose_model;
     
-    cv::Mat temp = cv::imread("/Volumes/extension/githubmy/learnopencv/opencv/Align1/f60cfa732d9283c03c3b06449425e667.jpg");
+    cv::Mat temp = cv::imread("/Volumes/extension/githubmy/learnopencv/opencv/Align1/d9c695da852946a9127a08b6d301da7f.jpg");
     
     cv_image<bgr_pixel> cimg(temp);
     // Detect faces
@@ -85,17 +85,21 @@ int main(int argc, const char * argv[]) {
     
     Mat result;
     if (!shapes.empty()) {
-        std::vector<Point2f> landmarks;
-        for (int i = 0; i < 68; i++) {
-            if (i <= 70) {
-                //putText(temp, to_string(i), cvPoint(shapes[0].part(i).x(), shapes[0].part(i).y()), 1, FONT_HERSHEY_PLAIN, cv::Scalar(0, 0, 255));
-                circle(temp, cvPoint(shapes[0].part(i).x(), shapes[0].part(i).y()), 2, cv::Scalar(0, 0, 255), -1);
+        for (int j = 0; j < faces.size(); j++) {
+            std::vector<Point2f> landmarks;
+            for (int i = 0; i < 68; i++) {
+                if (i <= 70) {
+                    //putText(temp, to_string(i), cvPoint(shapes[0].part(i).x(), shapes[0].part(i).y()), 1, FONT_HERSHEY_PLAIN, cv::Scalar(0, 0, 255));
+                    circle(temp, cvPoint(shapes[j].part(i).x(), shapes[j].part(i).y()), 2, cv::Scalar(0, 0, 255), -1);
+                }
+                Point2f f = Point2f(shapes[j].part(i).x(), shapes[j].part(i).y());
+                landmarks.push_back(f);
             }
-            Point2f f = Point2f(shapes[0].part(i).x(), shapes[0].part(i).y());
-            landmarks.push_back(f);
+            result = getwarpAffineImg(temp, landmarks);
+            char c[8];
+            sprintf(c, "%d", j);
+            imshow("After"+std::string(c), result);
         }
-        result = getwarpAffineImg(temp, landmarks);
-        imshow("After", result);
     }
     imshow("Before", temp);
     cv::waitKey(0);
